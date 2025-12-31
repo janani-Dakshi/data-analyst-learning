@@ -46,3 +46,19 @@ Analyze healthcare coding productivity data to evaluate:
 
 
 
+\## SQL Analysis
+
+The same business logic was implemented using SQL:
+
+\- Aggregation using GROUP BY
+
+\- Performance categorization using CASE WHEN
+
+\- SLA breach identification using WHERE conditions
+
+
+
+This demonstrates ability to translate business rules between SQL and Python.
+
+
+
