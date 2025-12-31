@@ -1,10 +1,40 @@
-# Data Analyst Learning Journey
+# \# Data Analyst Learning Journey
 
-This repository tracks my daily learning in:
-- Python
-- SQL
-- Power BI
-- Excel
-- Data Visualization
+# 
 
-Goal: Transition into a Data Analyst role with strong hands-on projects.
+# This repository documents my step-by-step learning journey to become a Data Analyst.
+
+# 
+
+# \## Skills Covered
+
+# \- Python (Basics, Pandas, Visualization)
+
+# \- SQL (SELECT, JOINs, CASE WHEN, Window Functions)
+
+# \- Power BI (Learning phase)
+
+# \- Excel (Operational reporting experience)
+
+# \- Data Visualization \& Analysis
+
+# 
+
+# \## What this repo shows
+
+# \- Daily hands-on practice
+
+# \- Mini scripts and queries
+
+# \- Clean, explainable code
+
+# \- Consistent Git commits
+
+# 
+
+# \## Goal
+
+# To transition into a Data Analyst role with strong practical knowledge and real-world problem solving skills.
+
+# 
+
