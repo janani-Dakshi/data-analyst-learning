@@ -27,7 +27,14 @@ for bar in ax.patches:
 
 plt.xlabel("Coder")
 plt.ylabel("Charts Completed")
+plt.tight_layout()
+plt.savefig(
+    "mini-projects/healthcare-productivity-analysis/images/coder_productivity.png",
+    dpi=300,
+    bbox_inches="tight"
+)
 plt.show()
+
 
 # 2. SLA Performance using CASE-like logic
 df["performance"] = df["tat_days"].apply(

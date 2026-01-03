@@ -40,7 +40,13 @@ for bar in ax.patches:
 plt.xlabel("Region")
 plt.ylabel("Sales Amount")
 plt.tight_layout()
+plt.savefig(
+    "mini-projects/sales-performance-analysis/images/sales_by_region.png",
+    dpi=300,
+    bbox_inches="tight"
+)
 plt.show()
+
 
 # 2. Line chart: Monthly Sales Trend
 df_month.plot(
@@ -53,7 +59,14 @@ df_month.plot(
 
 plt.xlabel("Month")
 plt.ylabel("Sales Amount")
+plt.tight_layout()
+plt.savefig(
+    "mini-projects/sales-performance-analysis/images/monthly_sales_trend.png",
+    dpi=300,
+    bbox_inches="tight"
+)
 plt.show()
+
 
 # 3. Histogram: Sales Distribution
 df_region["Amount"].plot(
@@ -63,4 +76,11 @@ df_region["Amount"].plot(
 )
 
 plt.xlabel("Sales Amount")
+plt.tight_layout()
+plt.savefig(
+    "mini-projects/sales-performance-analysis/images/sales_distribution.png",
+    dpi=300,
+    bbox_inches="tight"
+)
 plt.show()
+
